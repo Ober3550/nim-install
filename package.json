@@ -6,7 +6,6 @@
     "nim-install": "./dist/index.js"
   },
   "scripts": {
-    "prepare": "node_modules/.bin/tsc",
     "build": "node_modules/.bin/tsc",
     "dev": "ts-node src/index.ts",
     "clean": "rm -rf dist",

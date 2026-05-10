@@ -1,8 +1,5 @@
 node_modules/
 
-# TypeScript build output — npm runs `prepare` automatically on git installs
-dist/
-
 # OS
 .DS_Store
 Thumbs.db
