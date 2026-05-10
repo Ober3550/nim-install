@@ -1,0 +1,12 @@
+# Source files are not needed at runtime — dist/ is what gets installed
+src/
+tsconfig.json
+
+# Dev / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sw?
+.env
+.env.*
