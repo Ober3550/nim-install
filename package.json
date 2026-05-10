@@ -1,0 +1,45 @@
+{
+  "name": "nim-install",
+  "version": "0.1.0",
+  "description": "CLI to generate AI agent model configurations for NVIDIA NIM",
+  "bin": {
+    "nim-install": "./dist/index.js"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "inquirer": "^8.2.6",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.10",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "nvidia",
+    "nim",
+    "ai",
+    "llm",
+    "continue",
+    "cli",
+    "config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ober3550/nim-install.git"
+  },
+  "license": "MIT"
+}
