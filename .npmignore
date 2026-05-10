@@ -1,5 +1,6 @@
-# Source files are not needed at runtime — dist/ is what gets installed
+# Not needed at runtime
 src/
+dist/
 tsconfig.json
 
 # Dev / OS noise
